@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         'sans': ['"Outfit"', 'sans-serif'],
         'serif': ['"Young Serif"', 'serif']
+      },
+      fontWeight: {
+        'regular': 400,
+        'semi-bold': 600,
+        'bold': 700
       }
     },
     colors: {
