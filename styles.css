@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Outfit", sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -544,11 +544,43 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-serif {
+  font-family: "Young Serif", serif;
 }
 
 .text-raspberry {
   --tw-text-opacity: 1;
   color: hsl(332 51% 32% / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Young Serif';
+
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }

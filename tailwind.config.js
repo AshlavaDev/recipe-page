@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Outfit"', 'sans-serif'],
+        'serif': ['"Young Serif"', 'serif']
+      }
+    },
     colors: {
       'nutmeg': 'hsl(14, 45%, 36%)',
       'raspberry': 'hsl(332, 51%, 32%)',
