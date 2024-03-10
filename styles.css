@@ -560,13 +560,42 @@ video {
   justify-content: center;
 }
 
+.bg-eggshell {
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
+}
+
+.bg-raspberry {
+  --tw-bg-opacity: 1;
+  background-color: hsl(332 51% 32% / var(--tw-bg-opacity));
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .font-serif {
   font-family: "Young Serif", serif;
+}
+
+.font-sans {
+  font-family: "Outfit", sans-serif;
 }
 
 .text-raspberry {
   --tw-text-opacity: 1;
   color: hsl(332 51% 32% / var(--tw-text-opacity));
+}
+
+.text-eggshell {
+  --tw-text-opacity: 1;
+  color: hsl(30 54% 90% / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -579,4 +608,9 @@ video {
   font-family: 'Outfit';
 
   src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+.hover\:text-charcoal:hover {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity));
 }
