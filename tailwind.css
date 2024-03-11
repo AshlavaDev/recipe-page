@@ -14,11 +14,7 @@
 }
 
 @layer components {
-  .list-items {
-    @apply list-inside space-x-4;
-  }
-
   .subheading {
-    @apply font-serif text-2xl text-nutmeg;
+    @apply font-serif text-xl text-nutmeg;
   }
 }
