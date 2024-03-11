@@ -9,14 +9,21 @@ module.exports = {
       },
       fontWeight: {
         'regular': 400,
-        'semi-bold': 600,
+        'semibold': 600,
         'bold': 700
       },
       fontSize: {
         'regular': '1rem',
         'lg': '1.25rem',
         'xl': '1.75rem',
-        '2xl': '2.5rem',
+        '2xl': '2.25rem',
+        '3xl': '2.5rem',
+      },
+      maxWidth: {
+        'desktop': '46rem'
+      },
+      padding: {
+        'desktop': "7.688rem"
       }
     },
     colors: {

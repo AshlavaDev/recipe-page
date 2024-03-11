@@ -3,11 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Young Serif';
-  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Outfit';
-  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@layer components {
+  .list-items {
+    @apply list-inside space-x-4;
+  }
+
+  .subheading {
+    @apply font-serif text-2xl text-nutmeg;
+  }
 }
